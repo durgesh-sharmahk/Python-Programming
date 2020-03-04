@@ -1,0 +1,9 @@
+class sample:
+    name="hello"
+    age=12
+    gender="female"
+obj1=sample()
+
+print(obj1.name)
+print(obj1.age)
+print(obj1.gender)
