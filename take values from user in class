@@ -1,0 +1,9 @@
+class sample:
+    name=input("enter name: ")
+    age=int(input("enter age: "))
+    gender=input("enter gender: ")
+obj1=sample()
+
+print(obj1.name)
+print(obj1.age)
+print(obj1.gender)
