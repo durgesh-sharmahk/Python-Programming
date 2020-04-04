@@ -1,0 +1,6 @@
+class Employee:
+    def __init__(self, name, sal):
+        self.__name = name    
+        self.__sal = sal
+emp = Employee("Bill", 10000)
+emp.__sal
