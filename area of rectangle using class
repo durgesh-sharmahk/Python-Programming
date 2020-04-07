@@ -1,0 +1,15 @@
+class Rectangle:
+    l = 0
+    b=0
+    a = 0
+    def __init__(self,l,b):
+        self.l = l
+        self.b = b
+    def area(self):
+        a = l*b
+        print("Area of rectangle : ",a)
+
+l = int(input("Enter length of rectangle : "))
+b = int(input("Enter breadth of rectangle : "))
+obj1 = Rectangle(l,b)
+obj1.area()
