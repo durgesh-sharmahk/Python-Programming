@@ -1,0 +1,17 @@
+class Circle:
+    r= 0
+    p=0
+    a = 0
+    def __init__(self,r):
+        self.r = r
+    def area(self):
+        a = 3.14*r*r
+        print("Area of circle : ",a)
+    def perimeter(self):
+        p = 2*3.14*r
+        print("Perimeter of circle : ",p)    
+
+r = int(input("Enter radius of circle : "))
+obj1 = Circle(r)
+obj1.area()
+obj1.perimeter()
