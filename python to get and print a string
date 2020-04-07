@@ -1,0 +1,10 @@
+class String:
+    s=" "
+    def get_string(self):
+        self.s = input("Enter String: ")
+    def print_string(self):
+        print(self.s.upper())
+
+obj1 = String()
+obj1.get_string()
+obj1.print_string()
